@@ -144,6 +144,7 @@ const nouvelleUtilisateur: User = {
     age: 25,
 } 
 
+const userProperty: keyof User = 'firstName';
 
 
 

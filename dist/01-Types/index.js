@@ -80,3 +80,4 @@ const nouvelleUtilisateur = {
     lastName: 'Verliefden',
     age: 25,
 };
+const userProperty = 'firstName';

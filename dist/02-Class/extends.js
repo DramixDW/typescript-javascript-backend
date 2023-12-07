@@ -14,6 +14,7 @@ class Player {
 class Warrior extends Player {
     constructor() {
         super(...arguments);
+        this.className = "Guerrier";
         this.dance = () => {
             console.log("je danse la polka");
         };
@@ -22,6 +23,9 @@ class Warrior extends Player {
         super.attack();
         console.log('je crie');
         console.log(this.mana);
+    }
+    wave() {
+        console.log("je salue comme un guerrier");
     }
 }
 const garosh = new Warrior(42, 42, 'garosh');
